@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-size: 30px;
+    font-family: Helvetica;
+    opacity: 0.9;
+
+}
+
+header {
+    position: relative;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    
+}
+
+nav ul {
+    text-decoration: underline;
+    list-style-type: none;
+   float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    position: relative;
+    color:seashell;
+    margin-right: 15px; 
+    
+}
+
+.banner {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    border-top: 1px solid seashell;
+    
+}
+
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+}
+
+.teaMenu {
+   text-align: center;
+   padding-top: 50px;
+}
+
+.tea-menu-photo img {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 280px;
+    
+
+}
+
+.menu-photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Signatura {
+    float: center;
+}
+
+.Signatura figcaption {
+    padding-top: 10px;
+}
+
+.locations {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+
+}
+.locations-text {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    top: 30%;
+    left: 5%;
+    overflow: hidden;
+    
+
+}
+.locations-header {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 45%;
+    padding-bottom: 15px;
+}
+
+.center {
+    background-color: black;
+    width: 25%;
+    opacity: 1;
+    line-height: 300%;
+}
+
+.right {
+    background-color: black;
+    width: 25%;
+    opacity: 1;
+    line-height: 300%;
+}
+
+.left {
+    background-color: black;
+    width: 25%;
+    opacity: 1;
+    line-height: 300%;
+
+}
+.footer-tea{
+    color: seashell;
+    padding-top: 150px;
+    text-align: center;
+    height: 200px;
+    line-height: 50px;
+
+}
+
+.footer-left {
+    color: seashell;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 20px;
+}
