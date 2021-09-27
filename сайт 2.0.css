@@ -4,7 +4,6 @@ body {
     font-size: 30px;
     font-family: Helvetica;
     opacity: 0.9;
-
 }
 
 header {
@@ -15,25 +14,22 @@ nav img {
     height: 50px;
     width: auto;
     position: absolute;
-    
 }
 
 nav ul {
     text-decoration: underline;
     list-style-type: none;
-   float: right;
+    float: right;
 }
 
 nav ul li {
     display: inline-block;
-    
 }
 
 nav ul li a {
     position: relative;
     color:seashell;
     margin-right: 15px; 
-    
 }
 
 .banner {
@@ -44,9 +40,7 @@ nav ul li a {
     display: inline-block;
     text-align: center;
     border-top: 1px solid seashell;
-    
 }
-
 
 .banner-text {
     position: absolute;
@@ -67,8 +61,6 @@ nav ul li a {
     flex-direction: row;
     width: 400px;
     height: 280px;
-    
-
 }
 
 .menu-photo {
@@ -90,8 +82,8 @@ nav ul li a {
     width: 100%;
     height: 600px;
     text-align: center;
-
 }
+
 .locations-text {
     position: absolute;
     display: flex;
@@ -101,9 +93,8 @@ nav ul li a {
     top: 30%;
     left: 5%;
     overflow: hidden;
-    
-
 }
+
 .locations-header {
     position: absolute;
     text-align: center;
@@ -131,15 +122,14 @@ nav ul li a {
     width: 25%;
     opacity: 1;
     line-height: 300%;
-
 }
+
 .footer-tea{
     color: seashell;
     padding-top: 150px;
     text-align: center;
     height: 200px;
     line-height: 50px;
-
 }
 
 .footer-left {
